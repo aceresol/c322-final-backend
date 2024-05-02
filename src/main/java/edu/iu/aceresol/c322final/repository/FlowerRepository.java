@@ -28,9 +28,6 @@ public class FlowerRepository {
             flowersImagesDirectory.mkdirs();
         }
     }
-
-
-
     private static void appendToFile(Path path, String content)
             throws IOException {
         Files.write(path,
@@ -38,11 +35,6 @@ public class FlowerRepository {
                 StandardOpenOption.CREATE,
                 StandardOpenOption.APPEND);
     }
-
-
-
-
-
     public int add(Flower flower) throws IOException {
         List<Flower> flowers = findAll();
         int maxId = 0;
@@ -57,10 +49,6 @@ public class FlowerRepository {
         appendToFile(path, data + NEW_LINE);
         return id;
     }
-
-
-
-
     public List<Flower> findAll() throws IOException {
         List<Flower> result = new ArrayList<>();
         Path path = Paths.get(DATABASE_NAME);
@@ -96,17 +84,6 @@ public class FlowerRepository {
         return result;
     }
 
-
-
-
-
-
-
-
-
-
-
-
     public static byte[] getImage(int id) throws IOException {
         String fileExtension = ".jpeg";
         Path path = Paths.get(IMAGES_FOLDER_PATH
@@ -114,7 +91,6 @@ public class FlowerRepository {
         byte[] image = Files.readAllBytes(path);
         return image;
     }
-
     public boolean updateImage(int id, MultipartFile file) throws IOException {
         System.out.println(file.getOriginalFilename());
         System.out.println(file.getContentType());

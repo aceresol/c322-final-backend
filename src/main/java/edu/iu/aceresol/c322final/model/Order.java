@@ -9,8 +9,6 @@ public class Order {
     private static String firstName;
     private static String lastName;
     private static String status;
-
-
     public Order() {}
 
 

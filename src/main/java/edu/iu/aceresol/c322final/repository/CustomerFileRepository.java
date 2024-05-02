@@ -16,7 +16,6 @@ import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class CustomerFileRepository {
     private static final Logger LOG =
             LoggerFactory.getLogger(CustomerFileRepository.class);

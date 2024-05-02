@@ -11,7 +11,6 @@ public final class Customer {
     private String username;
     private String password;
     private String email;
-
     public Customer() {
 
     }

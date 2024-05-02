@@ -1,6 +1,4 @@
-1,mixed,Mother's day,mixed,54,SUGAR RUSH
-2,lilies,birthday,mixed,54,LEMONADE
-3,roses,Mother's day,pink,54,THE ANGELS
-4,mixed,thank you,pink,59,UNBREAKABLE
-5,mixed,thank you,pink,59,SIERRA SUNSET
-6,mixed,birthday,mixed,59,CASABLANCA
+1,mixed,Mother's day,mixed,50,SUGAR RUSH
+2,roses,birthday,red,50,THE ANGLES
+3,lilies,Mother's day,white,50,THE ANGELS
+

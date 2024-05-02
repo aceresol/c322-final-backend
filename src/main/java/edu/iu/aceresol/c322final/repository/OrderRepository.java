@@ -14,8 +14,6 @@ import java.util.List;
 
 @Component
 public class OrderRepository {
-
-
     private String DATABASE_NAME = "flowers/orders.txt";
     private static final String NEW_LINE = System.lineSeparator();
 
@@ -26,8 +24,6 @@ public class OrderRepository {
                 StandardOpenOption.CREATE,
                 StandardOpenOption.APPEND);
     }
-
-
     public OrderRepository() {}
 
 

@@ -85,7 +85,7 @@ public class FlowerRepository {
     }
 
     public static byte[] getImage(int id) throws IOException {
-        String fileExtension = ".jpeg";
+        String fileExtension = ".png";
         Path path = Paths.get(IMAGES_FOLDER_PATH
                 + id + fileExtension);
         byte[] image = Files.readAllBytes(path);
@@ -95,7 +95,7 @@ public class FlowerRepository {
         System.out.println(file.getOriginalFilename());
         System.out.println(file.getContentType());
 
-        String fileExtension = ".jpeg";
+        String fileExtension = ".png";
         Path path = Paths.get(IMAGES_FOLDER_PATH
                 + id + fileExtension);
         System.out.println("The file " + path + " was saved successfully.");
